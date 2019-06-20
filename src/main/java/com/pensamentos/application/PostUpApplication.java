@@ -10,10 +10,10 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EntityScan(basePackages = { "com.pensamentos.entity" })
 @EnableJpaRepositories(basePackages = { "com.pensamentos.repository" })
 @ComponentScan(basePackages = {"com.pensamentos.controller"})
-public class PensamentosApplication {
+public class PostUpApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PensamentosApplication.class, args);
+		SpringApplication.run(PostUpApplication.class, args);
 	}
 
 }
